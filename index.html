@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PulsarInteract - Interaktive Umfragen und Wettbewerbe in Minuten erstellen</title>
+  <meta name="description" content="Erstellen Sie interaktive Umfragen, Wettbewerbe und Gewinnspiele in wenigen Minuten. Ohne Programmierkenntnisse, mit einfacher Integration und detaillierter Analyse.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  
+  
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;700&family=Spectral:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="assets/logo.svg" alt="PulsarInteract Logo">
+      </a>
+      
+      <button class="nav-toggle" aria-expanded="false" aria-label="Menü öffnen">
+        <i class="fas fa-bars"></i>
+      </button>
+      
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#features" class="nav-link">Funktionen</a></li>
+          <li class="nav-item"><a href="#audience" class="nav-link">Zielgruppe</a></li>
+          <li class="nav-item"><a href="#articles" class="nav-link">Ressourcen</a></li>
+          <li class="nav-item"><a href="#testimonials" class="nav-link">Referenzen</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Kontakt</a></li>
+        </ul>
+        <a href="#register" class="btn btn-outline nav-cta">Kostenlos starten</a>
+      </nav>
+    </div>
+  </header>
+
+  
+  <section class="hero" id="home">
+    <div class="floating-elements"></div>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 hero-content animate-on-scroll">
+          <h1 class="hero-title">Erstellen Sie <span>interaktive Umfragen und Wettbewerbe</span> in wenigen Minuten</h1>
+          <p class="hero-subtitle">PulsarInteract bietet leistungsstarke Tools, mit denen Sie ohne Programmierkenntnisse interaktive Erlebnisse für Ihr Publikum schaffen können.</p>
+          <div class="hero-cta">
+            <a href="#register" class="btn btn-lg">Kostenlos testen</a>
+            <a href="#features" class="btn btn-outline btn-lg">Funktionen entdecken</a>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-5 mt-lg-0 hero-image animate-on-scroll">
+          <div class="parallax-container" data-depth="0.2">
+            <img src="assets/images/hero-bg.jpg" alt="Interaktive Umfrage auf einem Laptop und Mobiltelefon">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section platform-features" id="features">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Unsere Plattform</h2>
+        <p>Entdecken Sie die vielfältigen Möglichkeiten und Funktionen von PulsarInteract</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-item animate-on-scroll">
+          <div class="feature-icon">
+            <i class="fas fa-palette"></i>
+          </div>
+          <h3 class="feature-title">Vielfältige Vorlagen</h3>
+          <p>Wählen Sie aus über 50 professionell gestalteten Vorlagen für Umfragen, Wettbewerbe und Abstimmungen. Jede Vorlage ist vollständig anpassbar und für alle Geräte optimiert.</p>
+          <div class="feature-image">
+            <img src="assets/images/template-showcase.jpg" alt="Sammlung interaktiver Vorlagen für Umfragen und Wettbewerbe">
+          </div>
+        </div>
+        <div class="feature-item animate-on-scroll">
+          <div class="feature-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3 class="feature-title">Umfassende Analytik</h3>
+          <p>Erhalten Sie detaillierte Einblicke in die Teilnahme und das Engagement Ihrer Zielgruppe. Verfolgen Sie die Conversion-Raten und exportieren Sie die Daten für weitere Analysen.</p>
+          <div class="feature-image">
+            <img src="assets/images/platform-analytics.jpg" alt="Dashboard mit Analysetools für Umfrageergebnisse">
+          </div>
+        </div>
+        <div class="feature-item animate-on-scroll">
+          <div class="feature-icon">
+            <i class="fas fa-plug"></i>
+          </div>
+          <h3 class="feature-title">Nahtlose Integration</h3>
+          <p>Integrieren Sie Ihre Umfragen und Wettbewerbe problemlos in Ihre bestehenden Systeme. Wir bieten Schnittstellen zu allen gängigen CRM- und Marketing-Plattformen.</p>
+          <div class="feature-image">
+            <img src="assets/images/integration-tools.jpg" alt="Integrationsmöglichkeiten mit verschiedenen Plattformen und Tools">
+          </div>
+        </div>
+        <div class="feature-item animate-on-scroll">
+          <div class="feature-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3 class="feature-title">Datensicherheit</h3>
+          <p>Alle gesammelten Daten werden nach höchsten Sicherheitsstandards in Deutschland gespeichert und verarbeitet. Volle Konformität mit der DSGVO ist für uns selbstverständlich.</p>
+          <div class="feature-image">
+            <img src="assets/images/data-security.jpg" alt="Datenvisualisierung mit Sicherheitskonzept">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section section-alt audience-section" id="audience">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Für wen ist PulsarInteract geeignet?</h2>
+        <p>Unsere Plattform wurde entwickelt, um verschiedenste Branchen und Anwendungsfälle zu unterstützen</p>
+      </div>
+      <div class="audience-cards">
+        <div class="audience-card animate-on-scroll">
+          <div class="audience-image">
+            <img src="assets/images/business-user.jpg" alt="Geschäftsperson nutzt interaktive Tools für Kundenbefragungen">
+          </div>
+          <h3 class="audience-title">Unternehmen</h3>
+          <p>Sammeln Sie Kundenfeedback, führen Sie Marktforschung durch und erhöhen Sie das Engagement auf Ihrer Website. Ideal für Marketingaktionen und Kundenbindung.</p>
+          <div class="audience-icon">
+            <i class="fas fa-briefcase"></i>
+          </div>
+        </div>
+        <div class="audience-card animate-on-scroll">
+          <div class="audience-image">
+            <img src="assets/images/education-user.jpg" alt="Lehrperson erstellt interaktive Lernmaterialien">
+          </div>
+          <h3 class="audience-title">Bildungseinrichtungen</h3>
+          <p>Erstellen Sie interaktive Lernmaterialien, Quizze und Feedback-Formulare. Fördern Sie die Beteiligung der Schüler und Studenten im digitalen Unterricht.</p>
+          <div class="audience-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+        </div>
+        <div class="audience-card animate-on-scroll">
+          <div class="audience-image">
+            <img src="assets/images/marketing-user.jpg" alt="Marketingspezialist analysiert Kampagnendaten">
+          </div>
+          <h3 class="audience-title">Marketing-Agenturen</h3>
+          <p>Erstellen Sie ansprechende Inhalte für Ihre Kunden, erhöhen Sie die Reichweite in sozialen Medien und generieren Sie qualifizierte Leads durch interaktive Kampagnen.</p>
+          <div class="audience-icon">
+            <i class="fas fa-bullhorn"></i>
+          </div>
+        </div>
+        <div class="audience-card animate-on-scroll">
+          <div class="audience-image">
+            <img src="assets/images/event-user.jpg" alt="Eventmanager plant interaktive Veranstaltung">
+          </div>
+          <h3 class="audience-title">Veranstaltungsplaner</h3>
+          <p>Steigern Sie das Engagement bei virtuellen und physischen Veranstaltungen durch Live-Umfragen, Q&A-Sessions und interaktive Teilnehmer-Erlebnisse.</p>
+          <div class="audience-icon">
+            <i class="fas fa-calendar-check"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section features-section" id="functionality">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Unsere Kernfunktionen</h2>
+        <p>Entdecken Sie die leistungsstarken Tools, die PulsarInteract von anderen Plattformen unterscheiden</p>
+      </div>
+      <div class="features-container">
+        <div class="feature-box animate-on-scroll">
+          <div class="feature-box-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3 class="feature-box-title">No-Code-Builder</h3>
+          <p>Erstellen Sie komplexe interaktive Erlebnisse ohne eine Zeile Code zu schreiben. Unser intuitiver Drag-and-Drop-Builder macht es einfach, professionelle Umfragen und Wettbewerbe zu erstellen.</p>
+          <div class="feature-box-img">
+            <img src="assets/images/no-code-builder.jpg" alt="Drag-and-Drop-Interface für die Erstellung von Umfragen">
+          </div>
+        </div>
+        <div class="feature-box animate-on-scroll">
+          <div class="feature-box-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <h3 class="feature-box-title">Automatische Gewinnerauswahl</h3>
+          <p>Lassen Sie das System die Gewinner Ihrer Wettbewerbe und Verlosungen nach transparenten und fairen Kriterien auswählen. Die Ergebnisse können automatisch veröffentlicht oder per E-Mail versendet werden.</p>
+          <div class="feature-box-img">
+            <img src="assets/images/winner-selection.jpg" alt="Automatisierte Gewinnerauswahl für Online-Wettbewerbe">
+          </div>
+        </div>
+        <div class="feature-box animate-on-scroll">
+          <div class="feature-box-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <h3 class="feature-box-title">E-Mail & SMS Integration</h3>
+          <p>Versenden Sie automatisch personalisierte Nachrichten an Teilnehmer, Gewinner oder andere definierte Zielgruppen. Die Integration mit Ihrem bestehenden E-Mail-Marketing-System ist dabei problemlos möglich.</p>
+          <div class="feature-box-img">
+            <img src="assets/images/email-integration.jpg" alt="E-Mail-Integration und Kommunikationssystem für Umfragen">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section articles-section" id="articles">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Wissenswertes und Ressourcen</h2>
+        <p>Informieren Sie sich über aktuelle Trends und bewährte Methoden im Bereich interaktiver Kommunikation</p>
+      </div>
+      <div class="articles-grid">
+        <div class="article-card animate-on-scroll">
+          <div class="article-content">
+            <div class="article-meta">25. September 2025</div>
+            <h3 class="article-title">Wie interaktive Umfragen die Kundenbindung steigern können</h3>
+            <p class="article-excerpt">Erfahren Sie, wie regelmäßige, gut konzipierte Umfragen das Engagement Ihrer Kunden fördern und wertvolle Einblicke liefern können.</p>
+          </div>
+        </div>
+        <div class="article-card animate-on-scroll">
+          <div class="article-content">
+            <div class="article-meta">18. September 2025</div>
+            <h3 class="article-title">DSGVO-konforme Gewinnspiele: Was Sie beachten müssen</h3>
+            <p class="article-excerpt">Ein umfassender Leitfaden zur rechtssicheren Durchführung von Online-Gewinnspielen und Wettbewerben in Deutschland und der EU.</p>
+          </div>
+        </div>
+        <div class="article-card animate-on-scroll">
+          <div class="article-content">
+            <div class="article-meta">10. September 2025</div>
+            <h3 class="article-title">5 Psychologische Prinzipien für effektivere Umfragen</h3>
+            <p class="article-excerpt">Wie Sie psychologische Erkenntnisse nutzen können, um die Teilnahmequote und die Qualität der Antworten bei Ihren Umfragen zu verbessern.</p>
+          </div>
+        </div>
+        <div class="article-card animate-on-scroll">
+          <div class="article-content">
+            <div class="article-meta">5. September 2025</div>
+            <h3 class="article-title">Gamification in Umfragen: Mehr als nur Punkte und Abzeichen</h3>
+            <p class="article-excerpt">Wie Sie spielerische Elemente in Ihre Umfragen integrieren können, um das Engagement zu erhöhen und bessere Ergebnisse zu erzielen.</p>
+          </div>
+        </div>
+        <div class="article-card animate-on-scroll">
+          <div class="article-content">
+            <div class="article-meta">28. August 2025</div>
+            <h3 class="article-title">Mobile-First: Optimierung von Umfragen für Smartphones</h3>
+            <p class="article-excerpt">Praktische Tipps zur Gestaltung und Optimierung von Umfragen und interaktiven Inhalten für mobile Endgeräte.</p>
+          </div>
+        </div>
+        <div class="article-card animate-on-scroll">
+          <div class="article-content">
+            <div class="article-meta">20. August 2025</div>
+            <h3 class="article-title">Vom Feedback zur Aktion: Datenanalyse für bessere Entscheidungen</h3>
+            <p class="article-excerpt">Wie Sie die gesammelten Daten aus Umfragen effektiv analysieren und in konkrete Maßnahmen umsetzen können.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Was unsere Kunden sagen</h2>
+        <p>Erfahren Sie, wie PulsarInteract anderen Unternehmen und Organisationen geholfen hat</p>
+      </div>
+      <div class="testimonials-carousel">
+        <div class="testimonial-item">
+          <div class="testimonial-inner">
+            <div class="testimonial-content">
+              <p>"PulsarInteract hat die Art und Weise, wie wir mit unseren Kunden interagieren, grundlegend verändert. Die Plattform ist nicht nur einfach zu bedienen, sondern liefert auch wertvolle Einblicke, die wir für unsere Produktentwicklung nutzen können. Die Integration mit unserem bestehenden CRM-System war problemlos."</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="testimonial-author-img">
+                <img src="assets/images/testimonial-1.jpg" alt="Porträt von Markus Weber">
+              </div>
+              <div class="testimonial-author-info">
+                <h4>Markus Weber</h4>
+                <p>Marketingleiter, TechVision GmbH</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-item">
+          <div class="testimonial-inner">
+            <div class="testimonial-content">
+              <p>"Als Bildungseinrichtung war es für uns wichtig, eine Lösung zu finden, die sowohl DSGVO-konform ist als auch eine hohe Benutzerfreundlichkeit bietet. PulsarInteract hat uns nicht nur dabei geholfen, das Engagement unserer Studierenden zu erhöhen, sondern auch wertvolle Rückmeldungen zur Qualität unserer Kurse zu sammeln."</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="testimonial-author-img">
+                <img src="assets/images/testimonial-2.jpg" alt="Porträt von Dr. Julia Schmidt">
+              </div>
+              <div class="testimonial-author-info">
+                <h4>Dr. Julia Schmidt</h4>
+                <p>Leiterin E-Learning, Hochschule München</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2 class="cta-heading">Starten Sie Ihr erstes interaktives Projekt</h2>
+        <p class="cta-subheading">Testen Sie PulsarInteract 14 Tage lang kostenlos und ohne Kreditkarte. Entdecken Sie alle Premium-Funktionen ohne Einschränkungen.</p>
+        <div class="cta-buttons">
+          <a href="#register" class="btn btn-lg">Kostenlos starten</a>
+          <a href="#contact" class="btn btn-outline btn-lg">Beratungsgespräch vereinbaren</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section registration-section" id="register">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Kostenlos registrieren</h2>
+        <p>Erstellen Sie in wenigen Minuten Ihr erstes interaktives Projekt</p>
+      </div>
+      <div class="form-container">
+        <form action="thanks.html" method="GET" class="registration-form">
+          <div class="form-group">
+            <label for="project-type" class="form-label">Art des Projekts</label>
+            <select id="project-type" class="form-control" required>
+              <option value="">Bitte wählen</option>
+              <option value="survey">Umfrage</option>
+              <option value="contest">Wettbewerb / Gewinnspiel</option>
+              <option value="quiz">Quiz / Test</option>
+              <option value="feedback">Feedback-Formular</option>
+              <option value="other">Sonstiges</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="participants" class="form-label">Erwartete Anzahl der Teilnehmer</label>
+            <select id="participants" class="form-control" required>
+              <option value="">Bitte wählen</option>
+              <option value="small">Unter 100</option>
+              <option value="medium">100-500</option>
+              <option value="large">500-2.000</option>
+              <option value="xlarge">Über 2.000</option>
+              <option value="unknown">Noch nicht bekannt</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Gewünschte Integrationen</label>
+            <div class="checkbox-group">
+              <div class="checkbox-item">
+                <input type="checkbox" id="integration-email" name="integrations[]" value="email">
+                <label for="integration-email">E-Mail-Marketing</label>
+              </div>
+              <div class="checkbox-item">
+                <input type="checkbox" id="integration-crm" name="integrations[]" value="crm">
+                <label for="integration-crm">CRM-Systeme</label>
+              </div>
+              <div class="checkbox-item">
+                <input type="checkbox" id="integration-social" name="integrations[]" value="social">
+                <label for="integration-social">Soziale Medien</label>
+              </div>
+              <div class="checkbox-item">
+                <input type="checkbox" id="integration-website" name="integrations[]" value="website">
+                <label for="integration-website">Website / CMS</label>
+              </div>
+              <div class="checkbox-item">
+                <input type="checkbox" id="integration-none" name="integrations[]" value="none">
+                <label for="integration-none">Keine Integration benötigt</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" id="name" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">E-Mail-Adresse</label>
+            <input type="email" id="email" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="phone" class="form-label">Telefon (optional)</label>
+            <input type="tel" id="phone" class="form-control">
+          </div>
+          <div class="form-group">
+            <div class="checkbox-item">
+              <input type="checkbox" id="terms" name="terms" required>
+              <label for="terms">Ich akzeptiere die <a href="terms-of-use.html" target="_blank">Nutzungsbedingungen</a> und <a href="privacy-policy.html" target="_blank">Datenschutzrichtlinien</a>.</label>
+            </div>
+          </div>
+          <button type="submit" class="submit-btn">Kostenlosen Account erstellen</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Kontaktieren Sie uns</h2>
+        <p>Haben Sie Fragen oder Anregungen? Wir sind für Sie da!</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="form-container">
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Name</label>
+                <input type="text" id="contact-name" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="contact-email" class="form-label">E-Mail-Adresse</label>
+                <input type="email" id="contact-email" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="contact-phone" class="form-label">Telefon (optional)</label>
+                <input type="tel" id="contact-phone" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Betreff</label>
+                <input type="text" id="contact-subject" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Ihre Nachricht</label>
+                <textarea id="contact-message" class="form-control" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Nachricht senden</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-4 text-center mb-4">
+          <i class="fas fa-map-marker-alt mb-3" style="font-size: 2rem; color: var(--accent-2);"></i>
+          <h4>Adresse</h4>
+          <p>Balthasar-Neumann-Platz 1<br>50321 Brühl<br>Deutschland</p>
+        </div>
+        <div class="col-md-4 text-center mb-4">
+          <i class="fas fa-phone-alt mb-3" style="font-size: 2rem; color: var(--accent-2);"></i>
+          <h4>Telefon</h4>
+          <p>+49 2232 49864</p>
+        </div>
+        <div class="col-md-4 text-center mb-4">
+          <i class="fas fa-envelope mb-3" style="font-size: 2rem; color: var(--accent-2);"></i>
+          <h4>E-Mail</h4>
+          <p>info@pulsarinteract.de</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-about">
+          <a href="index.html" class="footer-logo">
+            <img src="assets/logo.svg" alt="PulsarInteract Logo">
+          </a>
+          <p>PulsarInteract ist eine leistungsstarke Plattform für die Erstellung interaktiver Umfragen, Wettbewerbe und Gewinnspiele. Wir helfen Unternehmen, Bildungseinrichtungen und Organisationen, das Engagement ihrer Zielgruppen zu steigern.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Rechtliches</h4>
+          <ul>
+            <li><a href="privacy-policy.html">Datenschutz</a></li>
+            <li><a href="terms-of-use.html">Nutzungsbedingungen</a></li>
+            <li><a href="cookie-policy.html">Cookie-Richtlinie</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Kontakt</h4>
+          <ul>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Balthasar-Neumann-Platz 1<br>50321 Brühl<br>Deutschland</span>
+            </li>
+            <li>
+              <i class="fas fa-phone-alt"></i>
+              <span>+49 2232 49864</span>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <span>info@pulsarinteract.de</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          <p>&copy; 2025 PulsarInteract GmbH. Alle Rechte vorbehalten.</p>
+        </div>
+        <div class="footer-legal">
+          <a href="privacy-policy.html">Datenschutz</a>
+          <a href="terms-of-use.html">Nutzungsbedingungen</a>
+          <a href="cookie-policy.html">Cookie-Richtlinie</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+  <div class="cookie-consent">
+    <div class="container">
+      <div class="cookie-content">
+        <div class="cookie-text">
+          <h4>Datenschutzeinstellungen</h4>
+          <p>Wir verwenden Cookies, um Ihr Browsing-Erlebnis zu verbessern, personalisierte Anzeigen oder Inhalte anzuzeigen und unseren Datenverkehr zu analysieren. Durch Klicken auf "Alle akzeptieren" stimmen Sie der Verwendung aller Cookies zu. Sie können Ihre Präferenzen anpassen, indem Sie auf "Einstellungen" klicken.</p>
+        </div>
+        <div class="cookie-buttons">
+          <button class="btn btn-sm btn-outline btn-cookie-settings">Einstellungen</button>
+          <button class="btn btn-sm btn-reject-all">Ablehnen</button>
+          <button class="btn btn-sm btn-accent-2 btn-accept-all">Alle akzeptieren</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="cookie-settings-modal" id="cookieSettingsModal">
+    <div class="cookie-settings-content">
+      <div class="cookie-settings-header">
+        <h3>Cookie-Einstellungen</h3>
+        <p>Hier können Sie festlegen, welche Cookies Sie zulassen möchten. Bitte beachten Sie, dass einige Cookies für das ordnungsgemäße Funktionieren der Website erforderlich sind und nicht deaktiviert werden können.</p>
+        <button class="cookie-settings-close" aria-label="Schließen">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      
+      <div class="cookie-settings-category">
+        <div class="cookie-category-header">
+          <h4 class="cookie-category-title">Notwendige Cookies</h4>
+          <label class="toggle-switch">
+            <input type="checkbox" checked disabled class="cookie-category-toggle" data-category="necessary">
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+        <p class="cookie-category-description">Diese Cookies sind für das Funktionieren der Website unbedingt erforderlich und können nicht deaktiviert werden.</p>
+      </div>
+      
+      <div class="cookie-settings-category">
+        <div class="cookie-category-header">
+          <h4 class="cookie-category-title">Analytische Cookies</h4>
+          <label class="toggle-switch">
+            <input type="checkbox" class="cookie-category-toggle" data-category="analytics">
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+        <p class="cookie-category-description">Diese Cookies ermöglichen es uns, die Nutzung der Website zu analysieren und das Benutzererlebnis zu verbessern.</p>
+      </div>
+      
+      <div class="cookie-settings-category">
+        <div class="cookie-category-header">
+          <h4 class="cookie-category-title">Marketing Cookies</h4>
+          <label class="toggle-switch">
+            <input type="checkbox" class="cookie-category-toggle" data-category="marketing">
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+        <p class="cookie-category-description">Diese Cookies werden verwendet, um Ihnen relevantere Werbung zu zeigen, basierend auf Ihren Interessen und Ihrem Browsing-Verhalten.</p>
+      </div>
+      
+      <div class="cookie-settings-category">
+        <div class="cookie-category-header">
+          <h4 class="cookie-category-title">Präferenz-Cookies</h4>
+          <label class="toggle-switch">
+            <input type="checkbox" class="cookie-category-toggle" data-category="preferences">
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+        <p class="cookie-category-description">Diese Cookies speichern Ihre Einstellungen und Präferenzen, um Ihren Besuch angenehmer zu gestalten.</p>
+      </div>
+      
+      <div class="cookie-settings-footer">
+        <button class="btn btn-sm btn-reject-all">Alle ablehnen</button>
+        <button class="btn btn-sm btn-save-preferences">Einstellungen speichern</button>
+        <button class="btn btn-sm btn-accept-all">Alle akzeptieren</button>
+      </div>
+    </div>
+  </div>
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@19.5.1/build/css/intlTelInput.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@19.5.1/build/js/intlTelInput.min.js"></script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  
+  
+  <script src="assets/js/cookie-consent.js"></script>
+  <script src="assets/js/main.js"></script>
+  
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const phoneInputs = document.querySelectorAll("input[type='tel']");
+      phoneInputs.forEach(input => {
+        window.intlTelInput(input, {
+          initialCountry: "de",
+          separateDialCode: true,
+          utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@19.5.1/build/js/utils.js",
+        });
+      });
+    });
+  </script>
+</body>
+</html>
